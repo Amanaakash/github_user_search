@@ -1,0 +1,75 @@
+.card_container{
+    width: 70vh;
+    height: 70vh;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    background-image:linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: "manrope";
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar h4{
+    color:white;
+    margin-top: 5px;
+    
+}
+
+.user-img{
+    margin-top: 10px;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+}
+
+.user-img:hover{
+    transform: scale(1.1);
+}
+
+.info_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+    font-weight: 500;
+    color:white;
+    margin-left: 1.5rem;
+}
+
+.main-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-info-container h4{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    margin-top: 1rem;
+    width:50px;
+    height:50px;
+}

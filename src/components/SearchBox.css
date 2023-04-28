@@ -1,0 +1,41 @@
+.content_input{
+    width:50%;
+    margin:2rem 0 1rem;
+
+    display: flex;
+}
+
+.content_input input{
+    flex:2;
+    width:100%;
+    min-height: 50px;
+    font-family: 'manrope';
+    font-size: 20px;
+    line-height: 27px;
+    background:#031B34;
+    border:2px solid #031B34;
+    padding:0 1rem;
+    outline:none;
+    color:#fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.content_input button{
+    flex:0.6;
+    width: 100%;
+    min-height: 50px;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 20px;
+    font-family: "manrope";
+    background: #FF4820;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline:none;
+    padding: 0 1rem;
+    border:none;
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

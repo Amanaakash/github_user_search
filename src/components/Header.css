@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-family: "manrope";
+    font-size:62px;
+    margin-top: 1rem;
+    font-weight: 800;
+    background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
