@@ -25,7 +25,7 @@ const UserCard = ({userData}) => {
       </div>
 
       <div className='logo'>
-        <a href={userData.url}><img src={logo} alt="github-logo" /></a>
+        <a href={userData.html_url}><img src={logo} alt="github-logo" /></a>
       </div>
     </div>
   )
